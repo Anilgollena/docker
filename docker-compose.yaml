@@ -20,9 +20,9 @@ services:
     restart: always
     environment:
       - WORDPRESS_DB_HOST=db
-      - WORDPRESS_DB_USER=anil
+      - WORDPRESS_DB_USER=Anil
       - WORDPRESS_DB_PASSWORD=Anil123
-      - WORDPRESS_DB_NAME=gollena
+      - WORDPRESS_DB_NAME=mydb  # Make sure this matches the MYSQL_DATABASE
 
 volumes:
   db_data:
