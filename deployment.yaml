@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: anil132/k8s
         ports:
         - containerPort: 80
