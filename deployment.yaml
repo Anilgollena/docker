@@ -16,7 +16,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: nginx
+      - name: k8
         image: anil132/k8s
         ports:
         - containerPort: 80
